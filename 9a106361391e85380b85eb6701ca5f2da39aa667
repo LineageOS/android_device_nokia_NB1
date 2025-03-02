@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9793144d_f28069cf",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 32674
+      },
+      "writtenOn": "2025-03-02T13:14:37Z",
+      "side": 1,
+      "message": "The firmware node in fstab can be disabled now; I23d22033d4f368b8ccb8f06625c184b682a1c1f3 is no longer needed.",
+      "revId": "9a106361391e85380b85eb6701ca5f2da39aa667",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
