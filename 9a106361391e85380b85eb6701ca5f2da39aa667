@@ -33,6 +33,24 @@
       "message": "https://github.com/LineageOS/android_device_xiaomi_Mi439/commit/0a0ca22cc03d6d93713c9008cd971f69b3ad994e.patch",
       "revId": "9a106361391e85380b85eb6701ca5f2da39aa667",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6bd259e2_3d48cca8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 32674
+      },
+      "writtenOn": "2025-03-02T13:30:16Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "e5665fab_44b3f9e3",
+      "revId": "9a106361391e85380b85eb6701ca5f2da39aa667",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
