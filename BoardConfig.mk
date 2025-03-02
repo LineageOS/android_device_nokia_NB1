@@ -12,7 +12,7 @@ AB_OTA_PARTITIONS += \
     odm
 
 # Kernel
-BOARD_KERNEL_CMDLINE += androidboot.boot_devices=soc/1da4000.ufshc
+BOARD_KERNEL_CMDLINE += androidboot.boot_devices=soc/1da4000.ufshc androidboot.android_dt_dir=/non-existent
 
 # QCOM
 TARGET_BOARD_PLATFORM := msm8998
