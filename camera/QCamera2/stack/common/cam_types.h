@@ -152,6 +152,10 @@
 #define QCAMERA_DUMP_FRM_LOCATION "/data/vendor/camera/"
 #define QCAMERA_MAX_FILEPATH_LENGTH 64
 
+/* Override UNLIKELY to avoid macro redefinitions */
+#undef LIKELY
+#undef UNLIKELY
+
 #define LIKELY(x)       __builtin_expect((x), true)
 #define UNLIKELY(x)     __builtin_expect((x), false)
 

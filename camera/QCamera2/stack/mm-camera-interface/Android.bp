@@ -1,0 +1,49 @@
+cc_library_headers {
+    name: "libmmcamera_interface_headers",
+    export_include_dirs: ["inc"],
+}
+
+cc_library_shared {
+    name: "libmmcamera_interface",
+    vendor: true,
+    compile_multilib: "32",
+    srcs: [
+        "src/mm_camera_interface.c",
+        "src/mm_camera.c",
+	"src/mm_camera_muxer.c",
+        "src/mm_camera_channel.c",
+        "src/mm_camera_stream.c",
+        "src/mm_camera_thread.c",
+        "src/mm_camera_sock.c",
+    ],
+    cflags: [
+        "-D_ANDROID_",
+        "-DCAMERA_ION_HEAP_ID=ION_IOMMU_HEAP_ID",
+        "-DQCAMERA_REDEFINE_LOG",
+        "-DSYSTEM_HEADER_PREFIX=sys",
+        "-DUBWC_PRESENT",
+        "-DUSE_ION",
+        "-DVENUS_PRESENT",
+        "-Wall",
+        "-Werror",
+        "-Wextra",
+    ],
+    export_include_dirs: [
+        "inc",
+    ],
+    include_dirs: [
+        "system/media/camera/include",
+    ],
+    shared_libs: [
+        "libcutils",
+        "libdl",
+        "libhal_dbg",
+        "liblog",
+        "libutils",
+    ],
+    header_libs: [
+        "camera_common_headers",
+        "libhardware_headers",
+        "generated_kernel_headers",
+    ],
+}
