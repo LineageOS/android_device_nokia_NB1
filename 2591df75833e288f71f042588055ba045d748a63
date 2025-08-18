@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0fb88011_cf67d046",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 32674
+      },
+      "writtenOn": "2025-08-18T00:49:21Z",
+      "side": 1,
+      "message": "There is a rare chance that someone is building without this one and failed during SELinux compilation. This fixes it.",
+      "revId": "2591df75833e288f71f042588055ba045d748a63",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
